@@ -14,21 +14,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Nexagen Development Console",
+  description:
+    "A modern Next.js application engineered by the Nexagen Team using TypeScript, Tailwind CSS, and shadcn/ui.",
+  keywords: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "React",
+    "Nexagen Project",
+  ],
+  authors: [{ name: "Nexagen Team" }],
+
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Nexagen Dev Platform",
+    description:
+      "A React-based development interface crafted by the Nexagen engineering team.",
+    url: "https://nexagen-project.local",
+    siteName: "Nexagen",
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Nexagen Dev Platform",
+    description:
+      "A modern engineering interface built using the React ecosystem.",
   },
 };
 
